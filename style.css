@@ -11,8 +11,6 @@ body{
     backdrop-filter: blur(20px);
 }
 
-asdasddsa
-
 .counter{
     width: 500px;
     height: 500px;
@@ -123,3 +121,32 @@ button{
     display: block;
 }
 
+
+
+@media(max-width: 1000px){
+
+    .counter{
+        max-width: 100px;
+        max-height: 100px;
+        border: 10px solid #FFF;
+    }
+
+    .counter-text{
+        font-size: 25px;
+        color: rgb(116, 98, 0);
+    }
+
+    .sto{
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .textbtnone{
+        font-size: 15px;
+    }
+
+    .textbtnone img{
+        max-width: 30px;
+    }
+
+}
