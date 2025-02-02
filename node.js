@@ -1,5 +1,5 @@
 const counter = document.querySelector(`.counter`)
-let newCounter = 5000
+let newCounter = 0
 const textCounter = document.querySelector(`.counter-text`)
 
 const shopSto = document.querySelector(`.one`)
